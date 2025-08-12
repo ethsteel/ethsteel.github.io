@@ -1,0 +1,25 @@
+{{ define "main" }}
+<div class="container">
+    <h2 class="{{ .Params.titleClass | default "" }}">{{ .Title }}</h2>
+    
+    <!-- Show the content from _index.md -->
+    <div class="content" style="padding-left: 2rem; padding-right: 2rem;">
+        {{ .Content }}
+    </div>
+    
+    <!-- List all blog posts -->
+    <div class="blog-posts" style="padding-left: 2rem; padding-right: 2rem;">
+        {{ range where .Site.RegularPages "Section" "blog" }}
+        <article class="blog-preview">
+            <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            {{ if .Summary }}
+                <p>{{ .Summary }}</p>
+            {{ end }}
+            <time style="display: block; margin-bottom: 20px;">{{ .Date.Format "January 2, 2006" }}</time>
+            <!-- <a href="{{ .Permalink }}">Read more →</a> -->
+        </article>
+        <hr>
+        {{ end }}
+    </div>
+</div>
+{{ end }}

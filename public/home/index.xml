@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Homes on STEEL</title>
+    <link>http://localhost:1313/home/</link>
+    <description>Recent content in Homes on STEEL</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 09 Jul 2025 12:42:33 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/home/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Home</title>
+      <link>http://localhost:1313/home/main/</link>
+      <pubDate>Wed, 09 Jul 2025 12:42:33 +0000</pubDate>
+      <guid>http://localhost:1313/home/main/</guid>
+      <description>&lt;!-- ![STEEL Logo](/images/home/steel.png) this-does-not-allow-scaling--&gt;&#xA;&lt;img src=&#34;http://localhost:1313/images/home/steel.png&#34; alt=&#34;STEEL Logo&#34; style=&#34;width: 15%;&#34;&gt;&#xA;&lt;p&gt;The STEEL team is one piece of the large puzzle that helps safeguard Ethereum&amp;rsquo;s integrity. The previous sentence might have been stolen from the security team&amp;rsquo;s blog..&lt;/p&gt;&#xA;&lt;br/&gt;&#xA;&#xA;&#xA;&lt;div class=&#34;callout callout-success&#34;&gt;&#xA;  &lt;div class=&#34;callout-title&#34;&gt;Contact Us&lt;/div&gt;&#xA;  &lt;div class=&#34;callout-content&#34;&gt;&#xA;    &lt;p&gt;You can reach us via:&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;&lt;a href=&#34;mailto:this-email@placeholder.eth&#34;&gt;this-email@placeholder.eth&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;&#xA;&#xA;  &lt;/div&gt;&#xA;&lt;/div&gt;</description>
+    </item>
+  </channel>
+</rss>
