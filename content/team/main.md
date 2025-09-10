@@ -205,9 +205,9 @@ team-member-description: Protocol Tester making it all red and then making it al
 </div>
 
 <div class="team-member-box">
-    <img src="/images/team/kclowes.jpg" alt="Keri" class="team-member-image">
+    <img src="/images/team/kclowes.jpg" alt="kclowes" class="team-member-image">
     <div class="team-member-content">
-        <h3 class="team-member-name">Keri</h3>
+        <h3 class="team-member-name">kclowes</h3>
         <p class="team-member-description"></p>
         <div class="team-member-socials">
                 <a href="https://github.com/kclowes" class="github" target="_blank" rel="noopener">
