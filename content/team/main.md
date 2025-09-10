@@ -78,7 +78,7 @@ https://github.com/spencer-tb
 https://x.com/techbro_ccoli
 Discord: spencer_tb
 Telegram: @spencer_tb
-team-member-description: Protocol Tester making it all red and then making it all green. Typically focusing on the next fork.
+team-member-description: Protocol Tester making it all red and then making it all green. Focusing on the next fork.
 
 -->
 
@@ -292,7 +292,7 @@ team-member-description: Protocol Tester making it all red and then making it al
     <img src="/images/team/spencer-tb.jpg" alt="Spencer Taylor-Brown" class="team-member-image">
     <div class="team-member-content">
         <h3 class="team-member-name">Spencer Taylor-Brown</h3>
-        <p class="team-member-description"></p>
+        <p class="team-member-description">Protocol Tester making it all red and then making it all green. Focusing on the next fork.</p>
         <div class="team-member-socials">
                 <a href="https://github.com/spencer-tb" class="github" target="_blank" rel="noopener">
                     <svg xmlns="http://www.w3.org/2000/svg">
@@ -302,6 +302,16 @@ team-member-description: Protocol Tester making it all red and then making it al
                 <a href="https://x.com/techbro_ccoli" class="x" target="_blank" rel="noopener">
                     <svg xmlns="http://www.w3.org/2000/svg">
                         <use href="#x-icon"/>
+                    </svg>
+                </a>
+                <a href="https://discord.com/users/spencer_tb" class="discord" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <use href="#discord-icon"/>
+                    </svg>
+                </a>
+                <a href="https://t.me/spencer_tb" class="telegram" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <use href="#telegram-icon"/>
                     </svg>
                 </a>
         </div>
