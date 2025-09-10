@@ -9,9 +9,10 @@ draft = false
     
 +++
 
-The **STEEL Team** (Specifications and Testing for the Ethereum Execution Layer) is an [Ethereum Foundation Protocol](https://protocol.ethereum.foundation/) team focused on **maintaining the specifications and tests for Ethereum’s Execution Layer**.  
+STEEL's work is centered around two main projects:
 
-Our work is centered around two main projects:  
+- EELS - the [Ethereum Execution Layer Specs](https://github.com/ethereum/execution-specs), written in executable Python to serve as both documentation and a reference implementation.
+- EEST - the [Ethereum Execution Spec Tests](https://github.com/ethereum/execution-spec-tests), which generate and release consensus and benchmarking test vectors for client teams.
 
 - **EELS 📐** - the [Ethereum Execution Layer Specs](https://github.com/ethereum/execution-specs), written in executable Python to serve as both documentation and a reference implementation.  
 - **EEST 🧪** - the [Ethereum Execution Spec Tests](https://github.com/ethereum/execution-spec-tests), which generate and release consensus and benchmarking test vectors for client teams.  
