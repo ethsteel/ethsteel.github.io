@@ -1,12 +1,12 @@
-baseURL = 'https://ethsteel.github.io/'
+baseURL = 'https://steel.ethereum.foundation/'
 languageCode = 'en-us'
 title = 'STEEL'
 theme = "minimal"
 sectionPagesMenu = ""
 [markup]
 [markup.goldmark.renderer]
-      unsafe = true
+unsafe = true
 
 [params]
-  sectionPagesMenu = ""  # Disable auto menu generation
-  favicon = "favicon.ico"
+#sectionPagesMenu = ""   # Disable auto menu generation
+favicon = "favicon.ico"
