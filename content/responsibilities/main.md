@@ -31,15 +31,15 @@ Together, these projects ensure that Execution Layer upgrades are clearly specif
 - Provide benchmarking and pathological test cases to help clients prepare for stress scenarios.
 - Assist client teams in debugging failures and feed findings back into specs and tests.
 
-### Tooling
+### Libraries and Tooling
 
-### Libraries
+#### Libraries
 
 - [ethereum/ethereum-types](https://github.com/ethereum/ethereum-types) - types used by Ethereum.
 - [ethereum/ethereum-rlp](https://github.com/ethereum/ethereum-rlp) - Recursive-length prefix (RLP) serialization as used by the Ethereum Specification.
 - [ethereum/web3.py](https://github.com/ethereum/web3.py) - A python interface for interacting with the Ethereum blockchain and ecosystem.
 
-### Client Test Frameworks
+#### Client Test Frameworks
 
 We maintain several system-test frameworks to help test Execution Layer Clients:
 
@@ -48,7 +48,9 @@ We maintain several system-test frameworks to help test Execution Layer Clients:
 
 See the EEST docs [on running tests for an overview and comparison](https://eest.ethereum.org/main/running_tests/running/) of all Hive simulators and frameworks.
 
-### Other Tooling
+<br/>
+
+#### Other Tooling
 
 - [docc](https://github.com/SamWilsn/docc) - A documentation creation tool for Python with a specific focus on markdown and extensibility.
 - [eth-tester](https://github.com/ethereum/eth-tester) - A tool suite for testing ethereum applications.
