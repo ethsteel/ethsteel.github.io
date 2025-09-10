@@ -1,0 +1,10 @@
+{
+  "cSpell.customDictionaries": {
+    "project-words": {
+      "name": "project-words",
+      "path": "${workspaceRoot}/whitelist.txt",
+      "description": "Words used in this project",
+      "addWords": true
+    }
+  }
+}
