@@ -36,7 +36,7 @@ We maintain the [ethereum/execution-specs](https://github.com/ethereum/execution
 {{< callout success "Contact Us" >}}
 You can reach us via:
 
-**<steel@ethereum.org>**
+**<steel@ethereum.foundation>**
 {{< /callout >}}
 
 <!-- we support the following callout boxes: success, info, note warning, danger. all are defined in /static/css/callouts.css  -->
