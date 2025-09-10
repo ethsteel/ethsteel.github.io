@@ -60,8 +60,7 @@ Keri
 https://github.com/kclowes
 
 Leo Lara
-team-member-description: Protocol tester for the Consensus Layer
-https://github.com/ethereum/consensus-specs
+team-member-description: Protocol tester for the [Consensus Layer](https://github.com/ethereum/consensus-specs).
 https://github.com/leolara
 https://x.com/leolarav
 
@@ -224,7 +223,7 @@ team-member-description: Protocol Tester making it all red and then making it al
     <img src="/images/team/leolara.jpg" alt="Leo Lara" class="team-member-image">
     <div class="team-member-content">
         <h3 class="team-member-name">Leo Lara</h3>
-        <p class="team-member-description"></p>
+        <p class="team-member-description">Protocol tester for the <a href="https://github.com/ethereum/consensus-specs" target="_blank" rel="noopener">Consensus Layer</a>.</p>
         <div class="team-member-socials">
                 <a href="https://github.com/leolara" class="github" target="_blank" rel="noopener">
                     <svg xmlns="http://www.w3.org/2000/svg">
