@@ -60,6 +60,8 @@ Keri
 https://github.com/kclowes
 
 Leo Lara
+team-member-description: Protocol tester for the Consensus Layer
+https://github.com/ethereum/consensus-specs
 https://github.com/leolara
 https://x.com/leolarav
 
