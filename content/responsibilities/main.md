@@ -53,7 +53,7 @@ See the EEST docs [on running tests for an overview and comparison](https://eest
 
 ### Other Tooling
 
-- **[docc](https://github.com/SamWilsn/docc)** - A documentation creation tool for Python with a specific focus on rendering differences across modules (ro visualize differences across Ethereum forks).
+- **[docc](https://github.com/SamWilsn/docc)** - A documentation creation tool for Python with a specific focus on markdown and extensibility.
 - **[eth-tester](https://github.com/ethereum/eth-tester)** - A tool suite for testing ethereum applications.
 - **[Blobber](https://github.com/marioevz/blobber)** - A live-network tool for testing blob transaction propagation across clients.  
 - **[`gentest`](https://github.com/ethereum/execution-spec-tests)** - A utility that generates Python test cases directly from a Mainnet or devnet transaction hash, useful for reproducing real-world scenarios in the EEST framework.  
