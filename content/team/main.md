@@ -78,6 +78,7 @@ https://github.com/spencer-tb
 https://x.com/techbro_ccoli
 Discord: spencer_tb
 Telegram: @spencer_tb
+team-member-description: Protocol Tester making it all red and then making it all green. Typically focusing on the next fork.
 
 -->
 
