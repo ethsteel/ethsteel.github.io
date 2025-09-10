@@ -5,8 +5,7 @@ draft = false
 [menu]
   [menu.main]
     name = 'Responsibilities'
-    weight = 7
-    
+    weight = 7 
 +++
 
 STEEL's work is centered around two main projects:
@@ -14,28 +13,25 @@ STEEL's work is centered around two main projects:
 - EELS - the [Ethereum Execution Layer Specs](https://github.com/ethereum/execution-specs), written in executable Python to serve as both documentation and a reference implementation.
 - EEST - the [Ethereum Execution Spec Tests](https://github.com/ethereum/execution-spec-tests), which generate and release consensus and benchmarking test vectors for client teams.
 
-- **EELS 📐** - the [Ethereum Execution Layer Specs](https://github.com/ethereum/execution-specs), written in executable Python to serve as both documentation and a reference implementation.  
-- **EEST 🧪** - the [Ethereum Execution Spec Tests](https://github.com/ethereum/execution-spec-tests), which generate and release consensus and benchmarking test vectors for client teams.  
-
-Together, these projects ensure that **Execution Layer upgrades are clearly specified, sufficiently tested, and safe for Mainnet deployment**.  
+Together, these projects ensure that Execution Layer upgrades are clearly specified, sufficiently tested, and safe for Mainnet deployment.
 
 ## Core Responsibilities
 
-### Specifications (EELS 📐)
+### Specifications (EELS)
 
 - Maintain the Execution Layer specification as executable Python code.
 - Help prototype and document proposed EIPs.
 - Publish spec snapshot releases to highlight differences between forks (e.g., [MODEXP changes in Osaka](https://ethereum.github.io/execution-specs/diffs/prague/osaka/vm/precompiled_contracts/modexp.py.html)).
 - Provide the reference EVM used to generate consensus tests for execution layer client teams.
 
-### Tests (EEST 🧪)
+### Tests (EEST)
 
 - Maintain Python test cases for EIPs and “Scale the L1” efforts.
 - Generate and continuously deliver reference test case releases for Execution Layer clients.
 - Provide benchmarking and pathological test cases to help clients prepare for stress scenarios.
 - Assist client teams in debugging failures and feed findings back into specs and tests.
 
-### Tooling ⚙️
+### Tooling
 
 ### Libraries
 
@@ -47,20 +43,20 @@ Together, these projects ensure that **Execution Layer upgrades are clearly spec
 
 We maintain several system-test frameworks to help test Execution Layer Clients:
 
-- **[Consume](https://eest.ethereum.org/main/running_tests/consume/)** - a family of [Hive](https://github.com/ethereum/hive) simulators that execute EEST test vectors against clients by feeding blocks via RLP (upon startup) or the Engine API.
-- **[Execute](https://eest.ethereum.org/main/running_tests/execute/)** - a framework for running EEST test vectors on live networks or as a Hive simulator, ensuring fixture compatibility across both simulated and real environments.
+- [Consume](https://eest.ethereum.org/main/running_tests/consume/) - a family of [Hive](https://github.com/ethereum/hive) simulators that execute EEST test vectors against clients by feeding blocks via RLP (upon startup) or the Engine API.
+- [Execute](https://eest.ethereum.org/main/running_tests/execute/) - a framework for running EEST test vectors on live networks or as a Hive simulator, ensuring fixture compatibility across both simulated and real environments.
 
 See the EEST docs [on running tests for an overview and comparison](https://eest.ethereum.org/main/running_tests/running/) of all Hive simulators and frameworks.
 
 ### Other Tooling
 
-- **[docc](https://github.com/SamWilsn/docc)** - A documentation creation tool for Python with a specific focus on markdown and extensibility.
-- **[eth-tester](https://github.com/ethereum/eth-tester)** - A tool suite for testing ethereum applications.
-- **[Blobber](https://github.com/marioevz/blobber)** - A live-network tool for testing blob transaction propagation across clients.  
-- **[`gentest`](https://github.com/ethereum/execution-spec-tests)** - A utility that generates Python test cases directly from a Mainnet or devnet transaction hash, useful for reproducing real-world scenarios in the EEST framework.  
+- [docc](https://github.com/SamWilsn/docc) - A documentation creation tool for Python with a specific focus on markdown and extensibility.
+- [eth-tester](https://github.com/ethereum/eth-tester) - A tool suite for testing ethereum applications.
+- [Blobber](https://github.com/marioevz/blobber) - A live-network tool for testing blob transaction propagation across clients.  
+- [`gentest`](https://github.com/ethereum/execution-spec-tests) - A utility that generates Python test cases directly from a Mainnet or devnet transaction hash, useful for reproducing real-world scenarios in the EEST framework.  
 
 <!-- implementation not complete enough to list yet:
-- **[eest-fuzz](https://github.com/SamWilsn/eest-fuzz) (WIP)** - Library and tools for (de)structuring EEST data types from arbitrary byte streams.
+- [eest-fuzz](https://github.com/SamWilsn/eest-fuzz) (WIP) - Library and tools for (de)structuring EEST data types from arbitrary byte streams.
 -->
 
 ## Collaboration
