@@ -72,7 +72,6 @@ https://github.com/petertdavies
 
 Sam Wilson
 https://github.com/SamWilsn
-https://x.com/_SamWilsn_
 
 Spencer Taylor-Brown
 https://github.com/spencer-tb
@@ -282,11 +281,6 @@ Telegram: @spencer_tb
                 <a href="https://github.com/SamWilsn" class="github" target="_blank" rel="noopener">
                     <svg xmlns="http://www.w3.org/2000/svg">
                         <use href="#github-icon"/>
-                    </svg>
-                </a>
-                <a href="https://x.com/_SamWilsn_" class="x" target="_blank" rel="noopener">
-                    <svg xmlns="http://www.w3.org/2000/svg">
-                        <use href="#x-icon"/>
                     </svg>
                 </a>
         </div>
