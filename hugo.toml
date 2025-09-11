@@ -11,3 +11,4 @@ unsafe = true
 [params]
 #sectionPagesMenu = ""   # Disable auto menu generation
 favicon = "favicon.ico"
+accent = "#4051B5"
