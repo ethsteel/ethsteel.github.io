@@ -15,7 +15,12 @@
             {{ if .Summary }}
                 <p>{{ .Summary }}</p>
             {{ end }}
-            <time style="display: block; margin-bottom: 20px;">{{ .Date.Format "January 2, 2006" }}</time>
+            <div class="blog-meta" style="margin-bottom: 20px; color: #666; font-size: 0.9em;">
+                <time>{{ .Date.Format "January 2, 2006" }}</time>
+                {{ if .Params.author }}
+                    <span> • By {{ .Params.author }}</span>
+                {{ end }}
+            </div>
             <!-- <a href="{{ .Permalink }}">Read more →</a> -->
         </article>
         <hr>
