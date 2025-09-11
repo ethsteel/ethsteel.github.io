@@ -6,7 +6,7 @@ draft = false
   [menu.main]
     name = 'Team'
     weight = 5
-    
+
 +++
 
 <!-- Define all SVG shapes once at the top (claude is insane, this defines how the github, x and dc icons look like) -->
@@ -27,7 +27,7 @@ draft = false
   </defs>
 </svg>
 
-<!-- 
+<!--
 Mario Vega
 https://github.com/marioevz
 https://x.com/elbuenmayini
@@ -37,6 +37,8 @@ Telegram: @marioevz
 
 Carson
 https://github.com/Carsons-Eels
+Discord: carsonseels
+team-member-description: Protocol specification developer focusing on documentation, EIPs, process, accessibility, and making our repo as useful to client teams as possible.
 
 danceratopz
 https://github.com/danceratopz
