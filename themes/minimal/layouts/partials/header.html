@@ -24,31 +24,36 @@
 
     <body>
         {{ partial "body-open" . }}
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <a class="navbar-brand visible-xs" href="#">{{ .Title }}</a>
-                    <button class="navbar-toggle" data-target=".navbar-collapse" data-toggle="collapse">
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                </div>
-                <div class="collapse navbar-collapse">
-                    {{ if .Site.Menus.main }}
-                        <ul class="nav navbar-nav">
-                            {{ range sort .Site.Menus.main }}
-                                <li><a href="{{ .URL }}">{{ .Name }}</a></li>
-                            {{ end }}
-                        </ul>
+        <nav class="top-nav">
+            <div class="nav-container">
+                <a href="/" class="nav-brand">{{ .Site.Title }}</a>
+                
+                <!-- Hamburger button for mobile -->
+                <button class="hamburger" id="hamburger-btn" aria-label="Menu" onclick="toggleMobileMenu()">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                
+                <ul class="nav-menu" id="nav-menu">
+                    {{ $currentPage := . }}
+                    {{ range .Site.Menus.main }}
+                        {{ if .Page }}
+                            <li>
+                                <a href="{{ .Page.RelPermalink }}" 
+                                   {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}class="active"{{ end }}>
+                                    {{ .Name }}
+                                </a>
+                            </li>
+                        {{ else if .URL }}
+                            <li>
+                                <a href="{{ .URL }}" 
+                                   {{ if or ($currentPage.IsMenuCurrent "main" .) ($currentPage.HasMenuCurrent "main" .) }}class="active"{{ end }}>
+                                    {{ .Name }}
+                                </a>
+                            </li>
+                        {{ end }}
                     {{ end }}
-                    {{ if .Site.Menus.icon }}
-                        <ul class="nav navbar-nav navbar-right">
-                            {{ range sort .Site.Menus.icon }}
-                                <li class="navbar-icon"><a href="{{ .URL }}"><i class="{{ .Name }}"></i></a></li>
-                            {{ end }}
-                        </ul>
-                    {{ end }}
-                </div>
+                </ul>
             </div>
         </nav>
