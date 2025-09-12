@@ -110,11 +110,16 @@ team-member-description: Protocol Tester making it all red and then making it al
     <img src="/images/team/Carsons-Eels.jpg" alt="Carson" class="team-member-image">
     <div class="team-member-content">
         <h3 class="team-member-name">Carson</h3>
-        <p class="team-member-description"></p>
+        <p class="team-member-description">Protocol Specification Developer focusing on documentation, EIPs, process, accessibility, and making our repo as useful to client teams as possible.</p>
         <div class="team-member-socials">
                 <a href="https://github.com/Carsons-Eels" class="github" target="_blank" rel="noopener">
                     <svg xmlns="http://www.w3.org/2000/svg">
                         <use href="#github-icon"/>
+                    </svg>
+                </a>
+                <a href="https://discord.com/users/carsonseels" class="discord" target="_blank" rel="noopener">
+                    <svg xmlns="http://www.w3.org/2000/svg">
+                        <use href="#discord-icon"/>
                     </svg>
                 </a>
         </div>
