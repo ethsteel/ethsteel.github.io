@@ -143,13 +143,13 @@ That's a lot of information clients need to have consensus about!
 
 To summarize, we have different tests for ensuring this. While we also have ways to verify `eth_config` responses of any locally running execution client (does not require a live devnet), this will not be the focus of the post. In regard to live devnet testing, we make use of multiple approaches:
 <br/>
-One test we wrote requires prior knowledge: It takes the genesis config used for the devnet in question as input, requests the `eth_config` from each running execution client, and then ensures that the responses are in accordance with the provided configuration file.
+One test we wrote requires prior knowledge: It takes the genesis config used for the devnet in question as input, requests the `eth_config` from each running execution client, and then ensures that the responses are in accordance with the provided configuration file. A brief guide for how to run this test can be found [in our documentation](https://eest.ethereum.org/main/running_tests/execute/eth_config/).
 <br/>
 Recently, we have added an additional testing mode, the so-called majority mode, which does not require any prior knowledge: this testing mode requests the `eth_config` from each execution client that exists in a given devnet and only compares the hashes of received responses. If any response does not follow the majority response, the test will dump response details, which allows us to notify the affected client teams about their misconfiguration.
 
 <figure style="text-align: center;">
   <img src="/images/blog/2025-09-15_eth-config/majority_mode.png"
-       alt="Lord of the Rings Meme for The Weld"
+       alt="The Office meme for eth_config majority testing"
        style="width: 50%; height: auto;">
   <figcaption style="margin-top: -1.0em; font-size: 0.9em; color: gray; margin-bottom: 2.0em;">
     We want to ensure that each client uses the exact same configuration.
